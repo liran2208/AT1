@@ -1,2 +1,2 @@
 # AT
- coursera course on algorithmic thinking
+coursera course on algorithmic thinking

@@ -18,8 +18,8 @@ def d_two_nodes_graph(g, num1, num2):
                 q.append(g[i-1])
     return 404
 
-#g = [[2, 4], [1, 3], [4, 2], [3, 1]]
-g = [ [2, 5], 
+graph = [[2, 4], [1, 3], [4, 2], [3, 1]]
+graph = [ [2, 5], 
       [6, 5, 4], 
       [6, 9, 4], 
       [2, 3, 5, 8, 9], 
@@ -28,4 +28,4 @@ g = [ [2, 5],
       [6, 5, 4], 
       [5, 3, 4, 7]]
 
-print (d_two_nodes_graph(g, 1, 5))
+print (d_two_nodes_graph(graph, 1, 9))
