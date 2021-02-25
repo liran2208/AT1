@@ -17,6 +17,6 @@ def make_complete_graph(num_nodes):
     #     v[i] = list(range(num_nodes))
     #     v[i].pop(i)
     
-    return (list(range(num_nodes)), {i: (list(set(list(range(num_nodes)))-set([i]))) for i in list(range(num_nodes))})
+    return (list(range(num_nodes)), {i: (list(set(list(range(num_nodes))) - set([i]))) for i in list(range(num_nodes))})
 
-print (make_complete_graph(5))
+print ("A complete graph: ", (make_complete_graph(5)))
